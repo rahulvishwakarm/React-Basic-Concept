@@ -3,6 +3,7 @@ import FindingDOMNode from './FInd DOM node/FindingDOMNode';
 import PropsChildrenGet from './Props Children/PropsChildrenGet';
 import DefaultProps from './Prototype/DefaultProps';
 import Prototype from './Prototype/Prototype';
+import ThisState from './State/ThisState';
 import ClassComponent from './Type of Components/ClassComponent';
 import FunctionalComp from './Type of Components/FunctionalComp';
 import HightorderCompoent from './Type of Components/HighOrderComponent';
@@ -62,6 +63,11 @@ function App() {
 
         {/* Finding a DOM node */}
         <FindingDOMNode/>
+
+        {/* this.state */}
+        <ThisState/>
+
+
     </div>
   );
 }
