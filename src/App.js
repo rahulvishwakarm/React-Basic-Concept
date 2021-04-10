@@ -1,4 +1,5 @@
 import React from 'react';
+import ComponentdidMount from './Component Life Cycle/ComponentdidMount';
 import FindingDOMNode from './FInd DOM node/FindingDOMNode';
 import Form from './Form/Form';
 import PropsChildrenGet from './Props Children/PropsChildrenGet';
@@ -61,7 +62,6 @@ function App() {
         {/* Default Prototype */}
         <DefaultProps />
 
-
         {/* Finding a DOM node */}
         <FindingDOMNode/>
 
@@ -70,6 +70,9 @@ function App() {
 
         {/* Form */}
         <Form/>
+
+        {/* Component Life Cycle */}
+        <ComponentdidMount name="My World"/>
     </div>
   );
 }
