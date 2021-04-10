@@ -1,5 +1,7 @@
 import React from 'react';
 import PropsChildrenGet from './Props Children/PropsChildrenGet';
+import DefaultProps from './Prototype/DefaultProps';
+import Prototype from './Prototype/Prototype';
 import ClassComponent from './Type of Components/ClassComponent';
 import FunctionalComp from './Type of Components/FunctionalComp';
 import HightorderCompoent from './Type of Components/HighOrderComponent';
@@ -8,6 +10,7 @@ function App() {
   var nmes1 = ['Test1','Test2','Test3']
   var names = [...nmes1];
   var arr = [<h1>Hello H1</h1>,<h2>Hello h2</h2>];
+  var data = 615;
   return (
     <div className="App">
         {/* Using Javascript in JSX */}
@@ -48,8 +51,12 @@ function App() {
         <PropsChildrenGet/>
 
         {/* Prototype */}
+        {/* It is used to check the data type */}
         
+        {/* <Prototype title={data}/> // Her it is throwing due to enlist verison so igonore please sure you know this concept , I have implemented in the component */}
 
+        {/* Default Prototype */}
+        <DefaultProps/>
 
     </div>
   );
