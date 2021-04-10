@@ -1,4 +1,5 @@
 import React from 'react';
+import FindingDOMNode from './FInd DOM node/FindingDOMNode';
 import PropsChildrenGet from './Props Children/PropsChildrenGet';
 import DefaultProps from './Prototype/DefaultProps';
 import Prototype from './Prototype/Prototype';
@@ -56,8 +57,11 @@ function App() {
         {/* <Prototype title={data}/> // Her it is throwing due to enlist verison so igonore please sure you know this concept , I have implemented in the component */}
 
         {/* Default Prototype */}
-        <DefaultProps/>
+        <DefaultProps />
 
+
+        {/* Finding a DOM node */}
+        <FindingDOMNode/>
     </div>
   );
 }
