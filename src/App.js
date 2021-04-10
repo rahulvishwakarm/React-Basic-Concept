@@ -1,5 +1,6 @@
 import React from 'react';
 import FindingDOMNode from './FInd DOM node/FindingDOMNode';
+import Form from './Form/Form';
 import PropsChildrenGet from './Props Children/PropsChildrenGet';
 import DefaultProps from './Prototype/DefaultProps';
 import Prototype from './Prototype/Prototype';
@@ -67,7 +68,8 @@ function App() {
         {/* this.state */}
         <ThisState/>
 
-
+        {/* Form */}
+        <Form/>
     </div>
   );
 }
