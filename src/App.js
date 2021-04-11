@@ -10,6 +10,7 @@ import ClassComponent from './Type of Components/ClassComponent';
 import FunctionalComp from './Type of Components/FunctionalComp';
 import HightorderCompoent from './Type of Components/HighOrderComponent';
 import GetAPIData from './API data/GetAPIData';
+import APIDataWithHooks from './API data/APIDataWithHooks';
 
 function App() {
   var nmes1 = ['Test1','Test2','Test3']
@@ -77,6 +78,9 @@ function App() {
 
         {/* How to get data from API to component? Answer is Ajax */}
         <GetAPIData />
+
+        {/* Get data with Hooks */}
+        <APIDataWithHooks/>
     </div>
   );
 }
