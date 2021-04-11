@@ -9,6 +9,7 @@ import ThisState from './State/ThisState';
 import ClassComponent from './Type of Components/ClassComponent';
 import FunctionalComp from './Type of Components/FunctionalComp';
 import HightorderCompoent from './Type of Components/HighOrderComponent';
+import GetAPIData from './API data/GetAPIData';
 
 function App() {
   var nmes1 = ['Test1','Test2','Test3']
@@ -72,7 +73,10 @@ function App() {
         <Form/>
 
         {/* Component Life Cycle */}
-        <ComponentdidMount name="My World"/>
+        <ComponentdidMount name="NEW"/>
+
+        {/* How to get data from API to component? Answer is Ajax */}
+        <GetAPIData />
     </div>
   );
 }
