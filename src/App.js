@@ -11,6 +11,8 @@ import FunctionalComp from './Type of Components/FunctionalComp';
 import HightorderCompoent from './Type of Components/HighOrderComponent';
 import GetAPIData from './API data/GetAPIData';
 import APIDataWithHooks from './API data/APIDataWithHooks';
+import PromiseCreate from './Promise/PromiseCreate';
+import Condition1 from './ConditionalsInJSX/Condition1';
 
 function App() {
   var nmes1 = ['Test1','Test2','Test3']
@@ -81,6 +83,13 @@ function App() {
 
         {/* Get data with Hooks */}
         <APIDataWithHooks/>
+
+        {/* Promise */}
+        {/* <PromiseCreate /> */}
+
+        {/* Conditional JSX */}
+        <Condition1/>
+        
     </div>
   );
 }
