@@ -13,6 +13,7 @@ import GetAPIData from './API data/GetAPIData';
 import APIDataWithHooks from './API data/APIDataWithHooks';
 import PromiseCreate from './Promise/PromiseCreate';
 import Condition1 from './ConditionalsInJSX/Condition1';
+import Condition2 from './ConditionalsInJSX/Condition2';
 
 function App() {
   var nmes1 = ['Test1','Test2','Test3']
@@ -90,6 +91,8 @@ function App() {
         {/* Conditional JSX */}
         <Condition1/>
         
+        {/* Multiple Consdition */}
+        <Condition2/>
     </div>
   );
 }
